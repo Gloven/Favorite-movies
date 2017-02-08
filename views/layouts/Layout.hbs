@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{title}} </title>
+    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/font-awesome.min.css">
+    <link rel="shortcut icon" href="../../public/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="container">
+ {{{body}}}
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/javascripts/bootstrap.min.js"></script>
+<script src="/javascripts/jquery.nicescroll.min.js"></script>
+<script src="/javascripts/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script>
+    $(document).ready(
+            function() {
+                $("html").niceScroll({cursorcolor:"#000"});
+            }
+    );
+</script>
+</body>
+</html>
